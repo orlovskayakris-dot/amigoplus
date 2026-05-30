@@ -7,4 +7,6 @@ coverage/
 .env*
 !.env.example
 deploy/
+update/
 amigoplus-deploy.zip
+amigoplus-update.zip
