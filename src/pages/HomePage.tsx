@@ -34,35 +34,35 @@ const CATALOG = [
   {
     title: "Электрокарнизы и Умные шторы",
     tag: "ФЛАГМАН",
-    img: "/images/smart.png",
+    img: "/images/smart.webp",
     path: "/electro",
     features: ["Интеграция с Алисой", "Управление со смартфона", "Бесшумные моторы (<15 дБ)"]
   },
   {
     title: "Рулонные шторы",
     tag: "ПОПУЛЯРНОЕ",
-    img: "/images/roll.png",
+    img: "/images/roll.webp",
     path: "/roller",
     features: ["Ткани Blackout 100%", "Защита от выгорания мебели", "Многообразие стилей и форм"]
   },
   {
     title: "Жалюзи всех видов",
     tag: "КЛАССИКА",
-    img: "/images/blind.png",
+    img: "/images/blind.webp",
     path: "/blinds",
     features: ["Алюминий, дерево, пластик", "Легкая очистка", "Точная регулировка света"]
   },
   {
     title: "Шторы Плиссе и Римские",
     tag: "ЭЛЕГАНТНОСТЬ",
-    img: "/images/pleats.png",
+    img: "/images/pleats.webp",
     path: "/pleats",
     features: ["Для нестандартных окон", "Уникальные ткани", "Элегантный дизайн"]
   },
   {
     title: "Металлическая мебель",
     tag: "НА ЗАКАЗ",
-    img: "/images/metal.png",
+    img: "/images/metal.webp",
     path: "/metal",
     features: ["Стеллажи и шкафы", "Технологическая мебель", "Покраска в любой цвет"]
   }
@@ -102,7 +102,7 @@ export const HomePage = () => {
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center transition-all duration-1000"
           style={{ 
-            backgroundImage: `linear-gradient(90deg, rgba(45, 55, 72, 0.85) 0%, rgba(45, 55, 72, 0.4) 50%, rgba(45, 55, 72, 0.1) 100%), url('/images/main-image.png')` 
+            backgroundImage: `linear-gradient(90deg, rgba(45, 55, 72, 0.85) 0%, rgba(45, 55, 72, 0.4) 50%, rgba(45, 55, 72, 0.1) 100%), url('/images/main-image.webp')` 
           }}
         />
 
@@ -151,7 +151,7 @@ export const HomePage = () => {
         >
           <div className="glass p-6 rounded-[32px] max-w-[220px] shadow-2xl border border-white/30 backdrop-blur-xl">
              <div className="w-full aspect-square rounded-2xl overflow-hidden mb-4 bg-brand-surface">
-               <img src="/images/smart.png" alt="Умный пульт управления" loading="lazy" className="w-full h-full object-cover" />
+               <img src="/images/smart.webp" alt="Умный пульт управления" loading="lazy" className="w-full h-full object-cover" />
              </div>
              <p className="text-sm font-bold text-brand-header leading-tight">Интеграция с Алисой и умным домом</p>
           </div>
@@ -213,7 +213,7 @@ export const HomePage = () => {
             className="hidden lg:block relative"
           >
             <div className="rounded-3xl overflow-hidden shadow-2xl relative z-10 border border-white/10">
-              <img src="/images/electro.png" alt="Умный дом" loading="lazy" className="w-full" />
+              <img src="/images/electro.webp" alt="Умный дом" loading="lazy" className="w-full" />
             </div>
           </motion.div>
 
@@ -302,7 +302,7 @@ export const HomePage = () => {
             >
               <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border border-white/40 aspect-[4/5] lg:aspect-auto">
                 <img 
-                  src="/images/metal2.png" 
+                  src="/images/metal2.webp" 
                   alt="Металлическая мебель для офиса и склада" 
                   loading="lazy"
                   className="w-full h-full object-cover"

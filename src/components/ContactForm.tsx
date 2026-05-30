@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, FormEvent } from 'react';
 import { Loader2, CheckCircle2 } from 'lucide-react';
 import { PrivacyModal } from './PrivacyModal';
 
@@ -12,7 +12,7 @@ export const ContactForm = ({ page }: ContactFormProps) => {
   const [isPrivacyOpen, setIsPrivacyOpen] = useState(false);
   const [agreed, setAgreed] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setStatus('loading');
     

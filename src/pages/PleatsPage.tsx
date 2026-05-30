@@ -9,7 +9,7 @@ export const PleatsPage = () => {
       title="Шторы Плиссе и Римские"
       subtitle="Изысканное решение для окон любой формы. Плиссированная ткань и классические складки для утонченного интерьера."
       seoDescription="Элегантные шторы шторы-плиссе и римские шторы для любых, включая нестандартные и мансардные, окон. Индивидуальный пошив под заказ."
-      image="/images/pleats.png"
+      image="/images/pleats.webp"
       badge="Элегантность и стиль"
     >
       <section className="py-16 md:py-24 bg-brand-surface">
@@ -70,7 +70,7 @@ export const PleatsPage = () => {
             </div>
           </div>
           <div className="relative">
-             <img src="/images/pleats.png" alt="Шторы Плиссе" loading="lazy" className="rounded-3xl shadow-2xl w-full" />
+             <img src="/images/pleats.webp" alt="Шторы Плиссе" loading="lazy" className="rounded-3xl shadow-2xl w-full" />
           </div>
         </div>
       </section>

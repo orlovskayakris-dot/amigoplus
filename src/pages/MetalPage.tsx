@@ -9,7 +9,7 @@ export const MetalPage = () => {
       title="Металлическая мебель"
       subtitle="Профессиональные решения для хранения. Долговечная и надежная мебель для офисов, складов и медицинских учреждений."
       seoDescription="Производство металлической мебели: архивные шкафы, стеллажи, сейфы для офиса и склада. Долговечность и качество. Оптовые поставки АМИГО ПЛЮС."
-      image="/images/metal.png"
+      image="/images/metal.webp"
       badge="Надежность и порядок"
     >
       <section className="py-16 md:py-24 bg-brand-surface">
@@ -71,7 +71,7 @@ export const MetalPage = () => {
           </div>
           <div className="relative">
             <div className="rounded-3xl overflow-hidden shadow-2xl">
-              <img src="/images/metal2.png" alt="Металлическая мебель в интерьере" loading="lazy" className="w-full" />
+              <img src="/images/metal2.webp" alt="Металлическая мебель в интерьере" loading="lazy" className="w-full" />
             </div>
           </div>
         </div>

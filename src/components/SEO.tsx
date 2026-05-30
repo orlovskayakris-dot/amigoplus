@@ -15,7 +15,7 @@ export const SEO = ({
   title, 
   description, 
   keywords, 
-  image = '/images/main-image.png',
+  image = '/images/main-image.webp',
   url = 'https://amigoplus.by', // Assuming standard domain, replace if known
   type = 'website',
   structuredData,

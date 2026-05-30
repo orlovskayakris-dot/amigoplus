@@ -9,7 +9,7 @@ export const BlindsPage = () => {
       title="Жалюзи всех видов"
       subtitle="Классика светозащиты в современном исполнении. Алюминий, дерево и пластик для любого интерьера."
       seoDescription="Жалюзи горизонтальные и вертикальные: алюминиевые, деревянные и пластиковые жалюзи для дома и офиса. Изготовление по вашим размерам с гарантией."
-      image="/images/blind.png"
+      image="/images/blind.webp"
       badge="Классические системы"
     >
       <section className="py-16 md:py-24 bg-brand-surface">
@@ -60,7 +60,7 @@ export const BlindsPage = () => {
               <p className="text-brand-text/60 mb-6 font-medium leading-relaxed">Самый популярный вид. Компактно крепятся на створку, не мешают открытию окна. Идеальны для офисов и кухонь.</p>
               <div className="aspect-[16/13] rounded-2xl bg-brand-surface overflow-hidden group/img relative">
                 
-                <img src="/images/blind1.jpg?v=2" alt="Горизонтальные жалюзи" loading="lazy" className="w-full h-full object-cover group-hover/img:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
+                <img src="/images/blind1.webp?v=2" alt="Горизонтальные жалюзи" loading="lazy" className="w-full h-full object-cover group-hover/img:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
               </div>
             </div>
             <div className="p-8 bg-white rounded-3xl shadow-sm border border-black/5">
@@ -68,7 +68,7 @@ export const BlindsPage = () => {
               <p className="text-brand-text/60 mb-6 font-medium leading-relaxed">Зрительно увеличивают высоту потолков. Отлично подходят для больших панорамных окон и разделения пространства.</p>
               <div className="aspect-[16/13] rounded-2xl bg-brand-surface overflow-hidden group/img relative">
                  
-                 <img src="/images/vertical1.jpg?v=2" alt="Вертикальные жалюзи" loading="lazy" className="w-full h-full object-cover group-hover/img:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
+                 <img src="/images/vertical1.webp?v=2" alt="Вертикальные жалюзи" loading="lazy" className="w-full h-full object-cover group-hover/img:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
               </div>
             </div>
           </div>

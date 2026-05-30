@@ -9,7 +9,7 @@ export const ElectroPage = () => {
       title="Электрокарнизы и Умные шторы"
       subtitle="Инновационные решения для автоматизации окон. Бесшумные моторы, управление голосом и смартфоном."
       seoDescription="Автоматические шторы с интеграцией Яндекс Алиса. Бесшумные электрокарнизы для умного дома по индивидуальным размерам. Управление со смартфона."
-      image="/images/smart.png"
+      image="/images/smart.webp"
       badge="Флагманские технологии"
     >
       <section className="py-16 md:py-24 bg-brand-surface">
@@ -50,7 +50,7 @@ export const ElectroPage = () => {
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
           <div className="rounded-3xl overflow-hidden shadow-2xl border border-white">
-            <img src="/images/electro.png" alt="Умные электрошторы" loading="lazy" className="w-full" />
+            <img src="/images/electro.webp" alt="Умные электрошторы" loading="lazy" className="w-full" />
           </div>
           <div>
             <SectionHeading 

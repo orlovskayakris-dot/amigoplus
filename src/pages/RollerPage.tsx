@@ -9,7 +9,7 @@ export const RollerPage = () => {
       title="Рулонные шторы"
       subtitle="Практичность, стиль и надежная защита от солнца. Более 500 видов тканей — от прозрачных до полного Blackout."
       seoDescription="Купить рулонные шторы под заказ. Ткани Blackout (блэкаут), день-ночь. Защита от солнца и посторонних глаз. Замер и установка жалюзи."
-      image="/images/roll.png"
+      image="/images/roll.webp"
       badge="Популярный выбор"
     >
       <section className="py-16 md:py-24 bg-brand-surface">
@@ -81,7 +81,7 @@ export const RollerPage = () => {
           </div>
           <div className="relative">
             <div className="rounded-3xl overflow-hidden shadow-2xl relative z-10">
-              <img src="/images/roll.png" alt="Рулонные шторы в интерьере" loading="lazy" className="w-full transition-all duration-700" />
+              <img src="/images/roll.webp" alt="Рулонные шторы в интерьере" loading="lazy" className="w-full transition-all duration-700" />
             </div>
           </div>
         </div>
