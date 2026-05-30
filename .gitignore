@@ -6,7 +6,9 @@ coverage/
 *.log
 .env*
 !.env.example
+tg.txt
 deploy/
 update/
+contact-fix/
 amigoplus-deploy.zip
 amigoplus-update.zip
