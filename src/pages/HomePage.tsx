@@ -111,7 +111,7 @@ export const HomePage = () => {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="max-w-2xl text-brand-surface pt-52 pb-12 sm:pt-20 sm:pb-0"
+            className="max-w-2xl text-brand-surface pt-52 pb-12 sm:pt-36 sm:pb-0 lg:pt-44"
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-brand-primary text-white rounded-full text-[10px] sm:text-[10px] font-bold uppercase tracking-widest mb-8">
               <Star className="w-3 h-3 fill-current" />
