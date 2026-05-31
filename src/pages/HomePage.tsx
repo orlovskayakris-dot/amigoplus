@@ -98,9 +98,9 @@ export const HomePage = () => {
       
       <main className="flex-1">
       {/* HERO SECTION */}
-      <section className="relative min-h-[100vh] lg:min-h-[700px] lg:h-[90vh] flex items-center overflow-hidden pb-16">
+      <section className="relative min-h-[100vh] lg:min-h-[700px] flex items-center overflow-hidden pt-24 lg:pt-28 pb-16">
         <div 
-          className="absolute inset-0 z-0 bg-cover bg-center transition-all duration-1000"
+          className="absolute inset-0 z-0 bg-cover bg-center"
           style={{ 
             backgroundImage: `linear-gradient(90deg, rgba(45, 55, 72, 0.85) 0%, rgba(45, 55, 72, 0.4) 50%, rgba(45, 55, 72, 0.1) 100%), url('/images/main-image.webp')` 
           }}
@@ -111,7 +111,7 @@ export const HomePage = () => {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="max-w-2xl text-brand-surface pt-52 pb-12 sm:pt-36 sm:pb-0 lg:pt-44"
+            className="max-w-2xl text-brand-surface py-8"
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-brand-primary text-white rounded-full text-[10px] sm:text-[10px] font-bold uppercase tracking-widest mb-8">
               <Star className="w-3 h-3 fill-current" />
