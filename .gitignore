@@ -1,9 +1,11 @@
 node_modules/
 build/
 dist/
+deploy/
 coverage/
 .DS_Store
 *.log
 .env*
 !.env.example
 tg.txt
+*.zip
